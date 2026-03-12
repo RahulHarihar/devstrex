@@ -8,7 +8,10 @@ import publicRoutes from "./routes/publicRoutes";
 const app: Application = express();
 
 app.use(
-	cors({ origin: ["http://localhost:5173", "https://devstrex.vercel.app"] }),
+	cors({
+		origin: ["http://localhost:5173", "https://devstrex.vercel.app"],
+		credentials: true,
+	}),
 );
 app.use(express.json());
 
