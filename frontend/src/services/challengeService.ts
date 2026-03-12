@@ -1,7 +1,7 @@
 import type { Challenge, Log } from "../types";
 import { getToken } from "./authService";
 
-const BASE_URL = `${import.meta.env.VITE_API_URL}/auth`;
+const BASE_URL = `${import.meta.env.VITE_API_URL}`;
 
 const authHeaders = () => ({
 	"Content-Type": "application/json",
