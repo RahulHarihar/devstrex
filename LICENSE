@@ -1,0 +1,46 @@
+Copyright (c) 2026 DevStrex. All rights reserved.
+
+This source code is publicly visible for portfolio, educational, and
+transparency purposes only.
+
+RESTRICTIONS — The following are strictly prohibited without explicit written
+permission from the author:
+
+1. REBRANDING You may not copy, modify, or use this codebase to create a product
+   under a different name, brand, or identity.
+
+2. REDISTRIBUTION You may not redistribute, republish, or mirror this code in
+   whole or in part on any platform, repository, or service.
+
+3. COMMERCIAL USE You may not use this code or any part of it for commercial
+   purposes, including but not limited to selling, licensing, or offering it as
+   a service.
+
+4. DERIVATIVE PRODUCTS You may not build, deploy, or ship a product that is
+   substantially based on or derived from this codebase.
+
+5. RESELLING You may not sell, sublicense, or transfer this code or any
+   derivative of it to any third party.
+
+PERMISSIONS — The following are allowed:
+
+- Viewing the source code for learning and reference purposes
+- Referencing specific patterns or techniques in your own original work with
+  attribution to the original author
+- Forking the repository solely for the purpose of submitting bug reports or
+  contributions via pull request
+
+ATTRIBUTION
+
+Any permitted reference to this code must include the following notice:
+
+"Originally created by DevStrex (devstrex.vercel.app)"
+
+DISCLAIMER
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY ARISING FROM THE USE OR MISUSE OF THIS SOFTWARE.
+
+For licensing inquiries or permission requests contact the author directly via
+Mail or GitHub.
