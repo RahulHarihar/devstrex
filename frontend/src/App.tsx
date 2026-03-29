@@ -6,6 +6,7 @@ import ChallengePage from "./pages/ChallengePage";
 import NewChallengePage from "./pages/NewChallengePage";
 import PublicProfilePage from "./pages/PublicProfilePage";
 import { Analytics } from "@vercel/analytics/react";
+import LandingPage from "./pages/LandingPage";
 
 const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
 	return getToken() ? <>{children}</> : <Navigate to='/auth' replace />;
@@ -15,8 +16,8 @@ const App = () => {
 	return (
 		<>
 			<Routes>
+				<Route path='/' element={<LandingPage />} />
 				<Route path='/auth' element={<AuthPage />} />
-				<Route path='/:username' element={<PublicProfilePage />} />
 				<Route
 					path='/dashboard'
 					element={
@@ -41,7 +42,17 @@ const App = () => {
 						</ProtectedRoute>
 					}
 				/>
-				<Route path='*' element={<Navigate to='/dashboard' replace />} />
+				<Route path='/:username' element={<PublicProfilePage />} />
+				<Route
+					path='*'
+					element={
+						getToken() ? (
+							<Navigate to='/dashboard' replace />
+						) : (
+							<Navigate to='/' replace />
+						)
+					}
+				/>
 			</Routes>
 			<Analytics />
 		</>
